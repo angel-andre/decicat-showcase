@@ -1,6 +1,6 @@
 # DECICAT
 
-A one-touch pixel-art runner for the crypto community. Hop across candlestick charts, stomp bears, face a final boss, and ride a rocket to the moon.
+A one-touch pixel-art runner for the crypto community. Hop across candlestick charts, stomp bears, outsmart the Bear King, and ride a rocket to the moon.
 
 **[Play it in your browser → decicat.bitcade.xyz](https://decicat.bitcade.xyz)** · free, no sign-up, works on phones and right inside X
 
@@ -34,7 +34,7 @@ Crypto Twitter. Decicat launched on X on **October 9, 2026**, and players found 
 
 - **10 hand-made stages**, each with its own scenery and hazards
 - **An original soundtrack**
-- **A boss fight**, then a **rocket ride to the moon**
+- **A boss fight** against the Bear King, then a **rocket ride to the moon**
 - **Endless Moon Mode** after the ending
 - **Power-ups**, a 40x rocket boost, trophies and skins
 - **Global leaderboard** with exact ranks
@@ -63,9 +63,9 @@ Green candles are safe to stand on. Red candles hurt, but brushing past one earn
 | --- | --- |
 | ![Whale Waters](docs/screenshots/whale_waters.png) | ![Flash Crash](docs/screenshots/flash_crash.png) |
 
-| Front-Runner Alley | The final boss |
+| Front-Runner Alley | The Bear King |
 | --- | --- |
-| ![Front-Runner Alley](docs/screenshots/front_runner_alley.png) | ![The final boss](docs/screenshots/bear_king.png) |
+| ![Front-Runner Alley](docs/screenshots/front_runner_alley.png) | ![The Bear King](docs/screenshots/bear_king.png) |
 
 ### The rocket ending
 
@@ -90,7 +90,7 @@ Green candles are safe to stand on. Red candles hurt, but brushing past one earn
 ## Soundtrack
 
 - [Title theme](docs/music/title_theme.mp3)
-- [Stage 9: the boss](docs/music/stage9_bear_king.mp3)
+- [Stage 9: Bear King](docs/music/stage9_bear_king.mp3)
 - [Moon Mode](docs/music/moon_mode.mp3)
 
 ## How I built it

@@ -12,7 +12,7 @@ Decicat is part of **Bitcade**, my series of browser arcade games.
 
 ## Why I made it
 
-I'm a community manager at the Aptos Foundation and have been in crypto since 2021. I wanted to turn crypto culture (charts, whales, flash crashes, bear markets) into something anyone can enjoy in a few seconds, and to learn what it really takes to ship a product people use. Decicat is that project: a game you can open from a post on X and play with one finger.
+I've been in crypto since early 2021, building communities and making games and tools for them. I wanted to turn crypto culture (charts, whales, flash crashes, bear markets) into something anyone can enjoy in a few seconds, and to learn what it really takes to ship a product people use. Decicat is that project: a game you can open from a post on X and play with one finger.
 
 ## Who plays it
 
@@ -20,7 +20,7 @@ Crypto Twitter. Decicat launched on X on **October 9, 2026**, and players found 
 
 ## The numbers
 
-*As of October 15, 2026, from the game's own anonymous player counter and the public leaderboard.*
+*Game figures as of October 15, 2026, from the game's published results and public leaderboard. X figures as of October 17, 2026.*
 
 | | |
 | --- | --- |
@@ -29,6 +29,11 @@ Crypto Twitter. Decicat launched on X on **October 9, 2026**, and players found 
 | Runs in the first 2 hours after launch | **about 314** |
 | Top score | **140,711** |
 | Runs in the top 20 that reached the Moon | **13** |
+| Players who posted their own runs on X (Oct 10-15) | **15+** |
+| Launch post on X | **222,145** impressions |
+| Day-one stats post on X | **223,413** impressions |
+
+A week-long Decibel community contest, run with [@doncastro](https://x.com/doncastro), rewarded the top five players on the scoreboard. It ended on October 15, 2026, and the winners were announced on October 16.
 
 ## What's in it
 
@@ -39,7 +44,7 @@ Crypto Twitter. Decicat launched on X on **October 9, 2026**, and players found 
 - **Power-ups**, a 40x rocket boost, trophies and skins
 - **Global leaderboard** with exact ranks
 - **A top-20 tribute video** celebrating the leaderboard's best players
-- **Privacy-first**: no accounts, no cookies
+- **No sign-up**: open the link and play
 
 ## How to play
 
@@ -93,12 +98,6 @@ Green candles are safe to stand on. Red candles hurt, but brushing past one earn
 - [Stage 9: Bear King](docs/music/stage9_bear_king.mp3)
 - [Moon Mode](docs/music/moon_mode.mp3)
 
-## How I built it
-
-A browser game served from Cloudflare's edge, with a small serverless backend for the leaderboard and an anonymous, cookieless player counter. No accounts and no app store: one link that works on desktop, phones and inside X.
-
-![Architecture](docs/diagrams/architecture.png)
-
 ## Challenges I solved
 
 - **Launch-day traffic.** Hundreds of runs arrived in the first hours, so the game and leaderboard had to stay fast and reliable from the start.
@@ -108,11 +107,10 @@ A browser game served from Cloudflare's edge, with a small serverless backend fo
 
 ## What I learned
 
-- **Shipping on Cloudflare**: hosting, serverless functions and storage for a real, public product.
+- **Shipping a real, public product**: launch week, live updates and a community contest, all in the open.
 - **Building in public** with the X community: sharing progress, celebrating players and turning feedback into updates.
 - **Iterating from player feedback**: small, frequent improvements beat big rewrites.
 - **Data accuracy**: reporting only numbers I can verify.
-- **Privacy and security basics**: collecting as little as possible and protecting what's public.
 
 ## Credits
 
